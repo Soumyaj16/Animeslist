@@ -28,7 +28,7 @@ const AnimesList = ({animes}) => {
         let i=x.indexOf(id);
         x.splice(i,1);
         x=JSON.stringify(x);
-        localStorage.setItem("wish,x");
+        localStorage.setItem("wish",x);
         alert("removed from wishlist");
     }
 }

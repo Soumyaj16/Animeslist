@@ -15,7 +15,6 @@ function App() {
             <Wishlist/>
           </Route>
         </Switch>
-     
       </div>
     </Router>
   );
