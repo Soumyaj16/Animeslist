@@ -1,0 +1,26 @@
+*{
+  margin: 0px;
+  padding: 0px;
+ box-sizing: border-box;
+}
+.s1{
+  background-color: darkgoldenrod;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  margin: auto;
+}
+.animes-list{
+  grid-template-columns: 300px 300px;
+}
+.anime{
+  background-color: rgb(95, 62, 173);
+}
+.anime button{
+  background-color: transparent;
+  border: none;
+}
+.anime button:active{
+  transform: scale(1.5);
+}
